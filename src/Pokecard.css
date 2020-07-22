@@ -1,0 +1,42 @@
+.Pokecard {
+  background: #d3d3d3;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto 40px;
+  padding: 20px 0;
+  width: 155px;
+}
+
+.Pokecard h3 {
+  color: blue;
+  margin: 0;
+}
+
+.Pokecard img {
+  margin: 0px 0;
+}
+
+.Pokecard p {
+  margin: 0;
+}
+
+@media screen and (min-width: 400px) {
+  .Pokecard {
+    display: inline-block;
+    width: 45%;
+  }
+  .Pokecard:nth-child(odd) {
+    margin-right: 8%;
+  }
+}
+
+@media screen and (min-width: 676px) {
+  .Pokecard {
+    display: inline-block;
+    margin: 0 2.5% 40px;
+    width: 20%;
+  }
+  .Pokecard:nth-child(odd) {
+    margin-right: 2.5%;
+  }
+}
